@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!--navegador traduz para linguagem atual utilizada-->
+    <meta charset="UTF-8">
+    <!--deixa o site adaptado aos dispositivos movel-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--titulo da pagina-->
+    <title>Currículo</title>
+    <!--referencia a folha CSS-->
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- navbar -->
+    <header id="navbar">
+        <!-- header é o cabeçalho da pagina-->
+        <img src="/IMG/shuriken.png" alt="ghost-king">
+        <h2>Luis Felipe Eloi Marques da Cunha</h2>
+        <nav>
+            <!-- barra de navegação fica no topo tela-->
+            <ul id="navbar-list">
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Projetos</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- fim navbar -->
+    <main>
+        <!-- main é o conteudo principal da pagina -->
+        <!-- Banner Inicio -->
+        <div id="main-banner">
+            <div id="banner-info">
+                <h1>Olá, Sou Luis Cunha</h1>
+                <img src="/IMG/LuisFelipe.jpg" alt="Perfil Luis Cunha">
+                <p>Desenvolvedor FullStack</p>
+            </div>
+        </div>
+        <!-- Banner fim -->
+        <!-- about inicio-->
+        <section id="about-section">
+            <h2>Um pouco sobre mim</h2>
+            <p>
+                Profissional com 8 anos de experiencia na área de teleatendimento em transição para o ramo da
+                tecnologia, buscando a primeira oportunidade como desenvolvedor júnior.
+                Conhecimentos em programação orientada a objeto Java, banco de dados SQL Server Management Studio, para
+                desenvolvimento Front-end Javascript, HTML5, CSS3, BootStrap.
+                Autodidata, controle emocional e comunicativo facilidade com trabalho em equipe e cumprimento de prazos.
+            </p>
+        </section>
+        <!-- about fim-->
+    </main>
+    <!-- skills inicio-->
+    <section id="skills-section">
+        <div class="container">
+            <div class="skills-container">
+                <img src="/IMG/weapon1.png" alt="weapons">
+                <h3>Obejtivo</h3>
+                <p>iniciar na aréa da tecnologia</p>
+                <p class="subtitle">Linguagens que utilizo:</p>
+                <p>HTML, CSS, JS, Java</p>
+                <p>Projetos Desenvolvidos:</p>
+                <p>Site Institucional, Sistemas, CRUD</p>
+            </div>
+            <div class="skills-container central">
+                <img src="/IMG/weapon2.png" alt="weapons">
+                <h3>Escolaridade</h3>
+                <p>Ensino superior - Cursando</p>
+                <p class="subtitle">Instituição:</p>
+                <p>Universidade Carlos Drummond de Andrade</p>
+                <p>Periodo: Noturno - Conclusão 11/2024</p>
+            </div>
+            <div class="skills-container">
+                <img src="/IMG/weapon3.png" alt="weapons">
+                <h3>Informações</h3>
+                <p class="subtitle">Contatos:</p>
+                <p>lfemcunha@hotmail.com</p>
+                <p>Telefone:(11) 96327-9924</p>
+                <p>GitHub - <a href="https://github.com/Luisfeloi" target="_blank">clique aqui</a></p>
+                <p>LinkedIn - <a href="https://www.linkedin.com/in/luis-cunha-430096195/" target="_blank">clique aqui</a></p>
+            </div>
+        </div>
+    </section>
+    <!-- about fim-->
+    <!-- Jobs Inioio-->
+    <section id="jobs-section">
+        <h2>Veja alguns trabalhos</h2>
+            <div class="job-container">
+            <div class="job-box proj1"></div>
+            <div class="job-box proj2"></div>
+            <div class="job-box proj3"></div>
+        </div>
+        <div class="job-container">
+            <div class="job-box proj3"></div>
+            <div class="job-box proj1"></div>
+            <div class="job-box proj2"></div>
+        </div>
+    </section>
+    <!-- Jobs fim-->
+    <!-- Footer inicio rodapé-->
+    <footer>
+        <h2>Me mande uma mensagem</h2>
+        <p>caso queira deixar sugestão de ferramenta ou contratar</p>
+        <img src="/IMG/ninja.png" alt="Perfil Ninja">
+        <!-- action = para qual servidor vai ser encaminhado os dados para ser tratados no servidor-->
+        <!-- method = busca ou inserção de dados-->
+        <form action="" method="">
+            <input type="text" name="name" placeholder="Seu Nome">
+            <input type="email" name="email" placeholder="Seu e-mail">
+            <textarea name="msg" placeholder="Deixe sua Mensagem"></textarea>
+            <input type="submit" value="enviar">
+        </form>
+        <p>Desenvolvido por <span class="detail">Luis Cunha - Dev Junior</span></p>
+    </footer>
+    <!-- Footer fim-->
+</body>
+
+</html>
